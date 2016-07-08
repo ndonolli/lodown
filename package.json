@@ -1,0 +1,29 @@
+{
+  "name": "lodown-ndonolli",
+  "version": "1.1.0",
+  "description": "lodown js library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "`istanbul cover _mocha -- test/ -R spec`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndonolli/lodown.git"
+  },
+  "author": "Nathan Donolli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndonolli/lodown/issues"
+  },
+  "homepage": "https://github.com/ndonolli/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
